@@ -47,7 +47,7 @@ router.post('/',(req,res)=>{
     }) 
     .catch((err)=>{
         console.log('Error in saving data :',err)
-        res.status(500).json({err:'Internet Server error'})
+        res.status(err.message).json({err:'Internet Server error'})
     })
 })
 
@@ -84,7 +84,7 @@ router.delete('/:id' , async(req,res)=>{
         res.status(200).json({message:'Person data deleted successfully.'})
     }catch(err){
         console.log('Error in deleting data :',err)
-        res.status(500).json({error: 'Internal Server Error!'})
+        res.status(err.message).json({error: 'Internal Server Error!'})
     }
 })
 

@@ -59,7 +59,7 @@ router.put('/:id', async (req,res)=>{
 
         const response = await person.findByIdAndUpdate(personId , personData ,{
             new: true , // return updated document
-            runValidatore: true // run mongoose validation like required , unique , etc
+            runValidators: true // run mongoose validation like required , unique , etc
         });
         if(!response){
             res.status(404).json({error:`Person Not Found`})

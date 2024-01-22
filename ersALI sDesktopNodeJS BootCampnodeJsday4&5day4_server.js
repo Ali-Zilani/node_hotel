@@ -1,0 +1,11 @@
+[33mcommit 7f99f40541f8f854efc34b86f557377ef71892d2[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Ali Zilani <ma21chb0b43@student.nitw.ac.in>
+Date:   Sun Jan 21 11:09:54 2024 +0530
+
+    changing status dynamically using err.message
+
+[33mcommit e5826e436b32f8979d85efece7426b26159cd91f[m
+Author: Ali Zilani <ma21chb0b43@student.nitw.ac.in>
+Date:   Sun Jan 21 10:48:43 2024 +0530
+
+    first version of my hotel app
